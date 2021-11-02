@@ -11,6 +11,9 @@ h1, h2, h3, h4, h5, h6{
     font-family: 'Montserrat', sans-serif;
 }
 
+p{
+    color: #A5A5A5;
+}
 
 .big-heading{
     color: #fff;
@@ -19,10 +22,19 @@ h1, h2, h3, h4, h5, h6{
     
 }
 
+
+.container-fluid{
+    padding: 7% 15%;
+}
+
 /*********************************************************************************/
 /* section */
 .color-section{
     background-color: #ff4c68;
+}
+
+.white-section{
+    background-color: #fff;
 }
 
 /*********************************************************************************/
@@ -67,4 +79,23 @@ h1, h2, h3, h4, h5, h6{
     padding-right:10px;
 }
 
+/*********************************************************************************/
+/* Feature Section */
+
+.feature-head{
+    font-weight: 800;
+    padding: 10px 20px;
+}
+
+.feature-text{
+    padding: 0 20px 30px;
+}
+
+.feature-icon{
+    color: #ef8172;
+}
+
+.feature-icon:hover{
+    color: #ff4c68;
+}
 /*********************************************************************************/
